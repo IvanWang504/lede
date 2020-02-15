@@ -12,7 +12,7 @@ on:
     - cron: 0 20 * * *
   push:
      branches: 
-     - master
+       - master
 
 jobs:
 
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-@@ -26,196 +25,59 @@ jobs:
+# @@ -26,196 +25,59 @@ jobs:
         with:
           ref: master
 
